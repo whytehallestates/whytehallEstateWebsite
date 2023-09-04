@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import ModalVideo from 'react-modal-video';
-import { FaPlay } from "react-icons/fa";
+// import { Link } from 'react-router-dom';
+// import ModalVideo from 'react-modal-video';
+// import { FaPlay } from "react-icons/fa";
 import HeroStyleOneImg1 from '../../assets/images/home/home.jpg';
 import HeroStyleOneImg2 from '../../assets/images/home/videoClick.jpg';
 import { LazyLoadImage } from "react-lazy-load-image-component";
