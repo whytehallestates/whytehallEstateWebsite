@@ -22,7 +22,7 @@ const Footer = () => {
                                         <a href="#"><FaPhoneAlt /> (+91) 8431790322</a>
                                     </div>
                                     <div className="footer-text">
-                                        <p>#226, 3rd Floor, Phase 5, Yelahanaka New Town, Bangalore - 560064</p>
+                                        <p>#226, 3rd Floor, Phase 5, Yelahanaka New Town, Bangalore - 560064.</p>
                                         <p>RERA No: PRM/KA/RERA/1251/309/AG/221220/003305</p>
                                     </div>
                                     {/* <div className="footer-info">
