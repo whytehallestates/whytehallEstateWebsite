@@ -47,15 +47,17 @@
 .header .nav-item {
     padding: 1rem;
     font-weight: 500;
+    color: #000;
+    cursor: pointer;
+}
+.header .nav-item .active{
+    color: red;
 }
 
 .hamburger {
     display: none;
 }
 
-.navbar-nav .nav-link.active {
-    color: red;
-}
 
 
 @media screen and (max-width:940px) {

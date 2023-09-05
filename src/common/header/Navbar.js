@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import logo from '../../assets/images/logo.png'
+import { Link as ScrollLink } from 'react-scroll';
+
 import './Navbar.css'
 import Logo from '../../components/logo/Logo'
 
@@ -11,8 +13,8 @@ const Navbar = () => {
 
     const closeMenu = () => setClick(false)
 
-    const test =(e) =>{
-        console.log("a",e)
+    const test = (e) => {
+        console.log("a", e)
     }
     return (
         <div className='header'>
@@ -29,27 +31,20 @@ const Navbar = () => {
 
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"} onClick={e => test(e)}>
-                    <li className='nav-item active'>
-                        <a aria-current="page" href='/' onClick={closeMenu}>Home</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#aboutUs' onClick={closeMenu}>About Us</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#services' onClick={closeMenu}>Services</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#projects' onClick={closeMenu}>Projects</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#ourTeam' onClick={closeMenu}>Our Team</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#careers' onClick={closeMenu}>Careers</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#contactUs' onClick={closeMenu}>Contact Us</a>
-                    </li>
+                    <li className='nav-item'><ScrollLink to="home" spy={true} smooth={true} offset={-80} onClick={closeMenu}>Home</ScrollLink></li>
+
+                    <li className='nav-item'><ScrollLink to="aboutUs" spy={true} smooth={true} offset={-80} onClick={closeMenu}>About Us</ScrollLink></li>
+
+                    <li className='nav-item'><ScrollLink to="services" spy={true} smooth={true} offset={-80} onClick={closeMenu}>Services</ScrollLink></li>
+
+                    <li className='nav-item'><ScrollLink to="projects" spy={true} smooth={true} offset={-80} onClick={closeMenu}>Projects</ScrollLink></li>
+
+                    <li className='nav-item'><ScrollLink to="ourTeam" spy={true} smooth={true} offset={-80} onClick={closeMenu}>Our Team</ScrollLink></li>
+
+                    <li className='nav-item'><ScrollLink to="careers" spy={true} smooth={true} offset={-80} onClick={closeMenu}>Careers</ScrollLink></li>
+
+                    <li className='nav-item'><ScrollLink to="contactUs" spy={true} smooth={true} offset={-80} onClick={closeMenu}>Contact Us</ScrollLink></li>
+
                 </ul>
             </nav>
         </div>

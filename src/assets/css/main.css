@@ -1178,6 +1178,7 @@ button.popup-video {
     height: 160px;
     position: relative;
     transition: .3s;
+    border: 2px solid black;
 }
 
 .single-project-img-icon {
