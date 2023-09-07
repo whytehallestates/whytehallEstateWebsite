@@ -13,7 +13,7 @@ const AboutUs = () => {
                                     profitable/ reliable through our strategic and individual approach.
                                 </p>
                                 <p>We guide our clients in smart investments through strategic investing, managing the
-                                    entire process and making property investing simple.
+                                    entire process and making property investment simple.
                                     We’re based in Bangalore and operate across India and overseas markets to ensure
                                     our clients get the best properties in the right market.</p>
                             </div>
