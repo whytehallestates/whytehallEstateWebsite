@@ -13,9 +13,6 @@ const Navbar = () => {
 
     const closeMenu = () => setClick(false)
 
-    const test = (e) => {
-        console.log("a", e)
-    }
     return (
         <div className='header'>
             <nav className='navbar'>
@@ -30,14 +27,14 @@ const Navbar = () => {
                         : (<FaBars size={30} style={{ color: '#000' }} />)}
 
                 </div>
-                <ul className={click ? "nav-menu active" : "nav-menu"} onClick={e => test(e)}>
+                <ul className={click ? "nav-menu active" : "nav-menu"} >
                     <li className='nav-item'><ScrollLink to="home" spy={true} smooth={true} offset={-80} onClick={closeMenu}>Home</ScrollLink></li>
 
                     <li className='nav-item'><ScrollLink to="aboutUs" spy={true} smooth={true} offset={-80} onClick={closeMenu}>About Us</ScrollLink></li>
 
                     <li className='nav-item'><ScrollLink to="services" spy={true} smooth={true} offset={-80} onClick={closeMenu}>Services</ScrollLink></li>
 
-                    <li className='nav-item'><ScrollLink to="projects" spy={true} smooth={true} offset={-80} onClick={closeMenu}>Projects</ScrollLink></li>
+                    {/* <li className='nav-item'><ScrollLink to="projects" spy={true} smooth={true} offset={-80} onClick={closeMenu}>Projects</ScrollLink></li> */}
 
                     <li className='nav-item'><ScrollLink to="ourTeam" spy={true} smooth={true} offset={-80} onClick={closeMenu}>Our Team</ScrollLink></li>
 
