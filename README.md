@@ -22,7 +22,6 @@ You may also see any lint errors in the console.
 ### `npm run deploy`
 
 After done the changes for build the application
-
 Info: Application is running from gh-pages branch and the code is stored in main branch
 
 
