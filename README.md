@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Download node modules
+Download the node modules
 
 ### `npm start`
 
