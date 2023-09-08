@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm install`
+
 Download node modules
 
 ### `npm start`
@@ -19,6 +20,7 @@ You may also see any lint errors in the console.
 
 
 ### `npm run deploy`
+
 After done the changes for build the application
 
 
